@@ -1,114 +1,123 @@
 # Agricultural Input Cost Analysis | Power BI Dashboard
 
-## 1. Project Overview
+## Project Overview
 
-This project analyses and compares agricultural input prices for two crops: **lettuce (salad) and strawberries**. The analysis focuses on fertilisers, pesticides, fungicides, and seeds to identify price differences across input categories and suppliers.
+This project analyses agricultural input prices for **lettuce and strawberry cultivation**, focusing on fertilisers, pesticides, fungicides and planting materials.
 
-Raw pricing information was originally stored in Microsoft Word documents. The data was converted into Excel with assistance from **Microsoft Copilot**, cleaned and transformed using **Power Query**, and visualised through an interactive **Power BI dashboard**.
+Using **Microsoft Copilot, Excel, Power Query and Power BI**, I transformed pricing information from Word documents into a structured dataset and developed an interactive dashboard to compare input prices and identify potential opportunities for procurement cost evaluation.
 
-The project demonstrates how unstructured information can be transformed into meaningful insights to support agricultural cost comparisons and purchasing decisions.
+## Project Objectives
 
-## 2. Project Objectives
+- Transform raw agricultural pricing information into structured data.
+- Clean and prepare datasets using Power Query.
+- Compare input prices across lettuce and strawberry cultivation.
+- Identify price differences between agricultural suppliers.
+- Visualise findings through an interactive Power BI dashboard.
 
-- Convert raw agricultural pricing information into a structured dataset.
-- Clean and organise input price data for analysis.
-- Compare fertiliser, pesticide, and seed prices across input categories.
-- Identify price differences between fertiliser suppliers.
-- Develop an interactive dashboard to support cost comparison and procurement planning.
+## Tools & Technologies
 
-## 3. Tools and Technologies
-
-| Tool | Application |
+| Tool | Purpose |
 |---|---|
-| Microsoft Copilot | Assisted in extracting and structuring pricing data from Word documents |
-| Microsoft Excel | Organised converted data into tabular format |
-| Power Query | Cleaned, transformed, and standardised the dataset |
-| Power BI | Developed interactive visualisations and comparison dashboards |
+| Microsoft Copilot | Assisted with converting Word pricing data into Excel |
+| Microsoft Excel | Data organisation and preparation |
+| Power Query | Data cleaning and transformation |
+| Power BI | Interactive dashboard development and visualisation |
 
-## 4. Data Preparation and Methodology
+## Data Analysis Workflow
 
-**Step 1: Data Extraction**
+**1. Data Extraction**
 
-Used Microsoft Copilot to assist with converting agricultural input pricing information from Microsoft Word into a structured Excel dataset.
+Used Microsoft Copilot to assist in extracting and converting agricultural input prices from Microsoft Word into Excel.
 
-**Step 2: Data Cleaning**
+**2. Data Cleaning**
 
-Used Power Query to prepare the data for analysis, including organising price records and standardising input categories.
+Used Power Query to organise and standardise input categories and price data for further analysis.
 
-**Step 3: Data Analysis**
+**3. Exploratory Analysis**
 
-Compared recorded prices across fertiliser, pesticide, fungicide, and seed categories. Examined price differences between Yara and Fertitrade fertilisers.
+Compared recorded prices across fertilisers, pesticides, fungicides and planting materials for both crops.
 
-**Step 4: Dashboard Development**
-<img width="1320" height="713" alt="image" src="https://github.com/user-attachments/assets/970fa76a-43fa-44aa-b1d2-17738d61ddef" />
+**4. Dashboard Development**
 
+Built an interactive Power BI dashboard featuring commodity selection, category filters and price comparison visualisations.
 
-Built an interactive Power BI dashboard featuring:
+## Dashboard Visualisations
 
-- Commodity slicer for lettuce and strawberries.
-- Input category filters.
-- Price comparisons across agricultural inputs.
-- Visualisations highlighting differences between suppliers and input categories.
+### Lettuce (Salad)
 
-## 5. Key Findings
+![Lettuce Dashboard](https://github.com/user-attachments/assets/b45449e2-5f18-4eb9-bca4-c78abfc2825b)
 
-### Lettuce (Salad) — Input Price Comparison
+### Strawberry
 
-The dashboard presents the following price values for lettuce cultivation inputs:
+![Strawberry Dashboard](https://github.com/user-attachments/assets/970fa76a-43fa-44aa-b1d2-17738d61ddef)
 
-| Agricultural Input | Price (RM) |
-|---|---:|
-| AB Fertigation Fertiliser (Yara) | 1,394.98 |
-| Seeds | 1,068.00 |
-| AB Fertigation Fertiliser (Fertitrade) | 648.00 |
-| Insecticide | 520.50 |
-| Thrips Pesticide | 404.50 |
-| Fungicide | 340.50 |
+## Key Findings
 
-**Finding 1: Significant Fertiliser Price Difference**
+### 1. Agricultural Input Price Comparison
+
+| Input Category | Lettuce (RM) | Strawberry (RM) |
+|---|---:|---:|
+| AB Fertigation Fertiliser (Yara) | 1,394.98 | 1,394.98 |
+| AB Fertigation Fertiliser (Fertitrade) | 648.00 | 648.00 |
+| Insecticide | 520.50 | 520.50 |
+| Thrips Pesticide | 404.50 | 404.50 |
+| Fungicide | 340.50 | 340.50 |
+| Seeds | 1,068.00 | — |
+| Seedlings | — | 25.80 |
+
+*Note: Values reflect the prices displayed in the dashboard. They are not necessarily comparable on a per-unit or per-application basis.*
+
+### 2. Significant Fertiliser Price Difference
 
 Yara AB fertigation fertiliser recorded a price of **RM1,394.98**, compared with **RM648.00** for Fertitrade.
 
-This represents a difference of **RM746.98**, with Yara approximately **115.27% more expensive** than Fertitrade based on the displayed values.
+- Price difference: **RM746.98**
+- Yara's recorded price is approximately **115.27% higher** than Fertitrade's.
 
-**Finding 2: Fertiliser and Seeds Have High Recorded Prices**
+This highlights a potential opportunity to evaluate alternative suppliers, subject to differences in product quantity, composition and suitability.
 
-Yara fertiliser and seeds recorded the highest price values among the six input categories, suggesting that they warrant particular attention during procurement cost comparisons.
+### 3. Similar Input Prices Across Both Crops
 
-**Finding 3: Pesticide and Fungicide Price Variation**
+Both crops recorded identical displayed prices for fertilisers, insecticide, thrips pesticide and fungicide.
 
-Among the crop protection inputs, insecticide recorded the highest price at RM520.50, followed by thrips pesticide (RM404.50) and fungicide (RM340.50).
+This indicates that the dashboard uses the same recorded price values for these input categories across both commodities. Further analysis of product quantities and application rates would be required to compare actual cultivation expenditure.
 
-## 6. Business Insights and Recommendations
+### 4. Differences in Planting Material
 
-**Supplier Price Comparison**
+Lettuce seeds recorded RM1,068.00, while strawberry seedlings recorded RM25.80.
 
-The substantial price difference between Yara and Fertitrade suggests an opportunity to evaluate alternative fertiliser suppliers. However, product specifications, package sizes, application rates, and nutrient composition should be compared before making purchasing decisions.
+Although these values differ substantially, direct cost comparisons require consistent units and information about the quantities needed for cultivation.
+
+## Business Insights & Recommendations
+
+**Supplier Evaluation**
+
+The RM746.98 recorded fertiliser price gap highlights the importance of supplier comparison. Evaluating price per unit, fertiliser composition and application requirements could support more informed purchasing decisions.
 
 **Procurement Planning**
 
-Agricultural purchasers could use the dashboard to identify higher-priced input categories and prioritise them for further cost evaluation.
+The dashboard helps identify higher-priced inputs that may warrant closer review when planning agricultural purchases.
 
-**Data-Driven Decision Making**
+**Improved Cost Visibility**
 
-An interactive dashboard makes it easier to compare recorded input prices without manually reviewing the original pricing documents.
+Interactive filters make it easier to review pricing information across crops and input categories, reducing the need to compare records manually.
 
-## 7. Project Limitations
+## Project Limitations
 
-- The analysis focuses on recorded input prices rather than total farming expenditure.
-- Price comparisons do not necessarily reflect equivalent package sizes, product quantities, or fertiliser specifications.
-- Total cultivation costs cannot be established without information on application rates, quantities used, and crop area.
-- The dashboard is intended for descriptive price comparison rather than predicting future prices or identifying the most effective agricultural products.
+- The analysis compares recorded prices rather than actual cultivation expenditure.
+- Product quantities and package sizes may differ between suppliers.
+- Identical prices across crops do not imply identical quantities consumed.
+- Historical prices and usage rates were not available for cost forecasting.
 
-## 8. Future Improvements
+## Future Improvements
 
-- Incorporate input quantities and application rates to estimate total cultivation costs.
-- Compare the cost per unit or kilogram for more meaningful supplier comparisons.
-- Expand the dataset to include historical prices and additional agricultural suppliers.
-- Develop cost estimates for different planting scales.
+- Calculate standardised prices per kilogram or litre.
+- Include application rates and planting quantities to estimate total cultivation costs.
+- Expand comparisons to additional agricultural suppliers.
+- Incorporate historical pricing data to analyse price trends.
 
-## 9. Project Summary
+## Conclusion
 
-This project demonstrates practical experience in **data extraction, data cleaning, transformation, and interactive dashboard development** using Microsoft Copilot, Excel, Power Query, and Power BI.
+This project demonstrates my ability to manage an end-to-end data analytics workflow, from extracting and cleaning raw information to creating interactive dashboards and communicating meaningful findings.
 
-By converting agricultural pricing information from Word into structured analytical data, the project provides a clearer view of input price differences and illustrates how business intelligence tools can support agricultural procurement analysis.
+It strengthened my practical experience in **Microsoft Copilot, Excel, Power Query and Power BI**, while demonstrating how data visualisation can support agricultural cost analysis and procurement planning.
